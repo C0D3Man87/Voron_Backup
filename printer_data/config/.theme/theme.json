@@ -1,0 +1,19 @@
+{
+  "name": "Metallic Industrial – Voron",
+  "version": "1.0.0",
+  "colors": {
+    "primary": "#72242A",
+    "secondary": "#888C89",
+    "background": "#1A1A1A",
+    "background-secondary": "#222222",
+    "background-tertiary": "#2A2A2A",
+    "text": "#E6E6E6",
+    "text-secondary": "#C8C8C8",
+    "text-inverted": "#FFFFFF",
+    "border": "#6E6E6E",
+    "accent": "#72242A",
+    "success": "#4CAF50",
+    "warning": "#FFC107",
+    "error": "#D32F2F"
+  }
+}
