@@ -1,0 +1,36 @@
+{
+  "name": "Voron Custom",
+  "colors": {
+    "primary": "#72242A",
+    "primary-dark": "#5A1C21",
+    "primary-light": "#8E2F36",
+
+    "secondary": "#888C89",
+    "secondary-dark": "#6E716F",
+    "secondary-light": "#A1A5A2",
+
+    "background": "#0F0F0F",
+    "background-light": "#1A1A1A",
+    "background-dark": "#000000",
+
+    "surface": "#1A1A1A",
+    "surface-light": "#2A2A2A",
+    "surface-dark": "#0F0F0F",
+
+    "text": "#E6E6E6",
+    "text-light": "#FFFFFF",
+    "text-dark": "#B0B0B0",
+
+    "success": "#4CAF50",
+    "warning": "#FFC107",
+    "error": "#FF3B3B",
+
+    "chart-1": "#72242A",
+    "chart-2": "#888C89",
+    "chart-3": "#E6E6E6",
+    "chart-4": "#4CAF50"
+  },
+  "radius": 6,
+  "blur": 0,
+  "opacity": 100
+}

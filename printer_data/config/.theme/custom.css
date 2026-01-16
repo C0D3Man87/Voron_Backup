@@ -1,0 +1,300 @@
+/* ===========================
+   GLOBAL
+   =========================== */
+
+html,
+body {
+    background-color: #0F0F0F !important;
+    color: #E6E6E6 !important;
+}
+
+/* Card surfaces */
+.v-card,
+.theme--dark.v-sheet {
+    background-color: #1A1A1A !important;
+    color: #E6E6E6 !important;
+    border-radius: 6px !important;
+    border: 1px solid #888C89 !important; /* secondary */
+}
+
+/* Inputs, selects, text fields */
+.v-input,
+.v-text-field,
+.v-select {
+    background-color: #1A1A1A !important;
+    color: #E6E6E6 !important;
+    border: 1px solid #888C89 !important; /* secondary */
+}
+
+/* Divider lines */
+.v-divider {
+    border-color: #888C89 !important; /* secondary */
+}
+
+/* Scrollbars */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-thumb {
+    background: #888C89 !important; /* secondary */
+    border-radius: 4px;
+}
+
+/* Global primary outline */
+.outlined,
+.v-card.outlined,
+.v-btn.outlined,
+.v-input.outlined,
+.v-select.outlined,
+.v-text-field.outlined {
+    border: 1px solid #72242A !important; /* primary */
+}
+
+/* ===========================
+   SIDEBAR
+   =========================== */
+
+.v-navigation-drawer {
+    background-image: url("assets/sidebar-background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-right: 2px solid #888C89 !important; /* secondary */
+}
+
+/* Sidebar overlay tint */
+.v-navigation-drawer::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.65),
+        rgba(0, 0, 0, 0.85)
+    );
+    pointer-events: none;
+}
+
+/* Sidebar text + icons */
+.v-list-item__title,
+.v-list-item__subtitle,
+.v-list-item__icon {
+    color: #E6E6E6 !important;
+}
+
+/* Active menu item */
+.v-list-item--active {
+    background-color: rgba(136, 140, 137, 0.25) !important; /* secondary tint */
+    border-left: 3px solid #888C89 !important; /* secondary */
+}
+
+/* Hover state */
+.v-list-item:hover {
+    background-color: rgba(136, 140, 137, 0.15) !important; /* secondary */
+}
+
+/* ===========================
+   TOP BAR / TOOLBAR
+   =========================== */
+
+.v-toolbar {
+    background-color: #1A1A1A !important;
+    border-bottom: 2px solid #888C89 !important; /* secondary */
+}
+
+.v-toolbar__title {
+    color: #E6E6E6 !important;
+}
+
+.v-toolbar .v-btn {
+    color: #888C89 !important; /* secondary */
+}
+
+/* ===========================
+   BUTTONS
+   =========================== */
+
+.v-btn {
+    text-transform: none !important;
+    border-radius: 4px !important;
+}
+
+/* Primary buttons */
+.v-btn.primary {
+    background-color: #72242A !important;
+    color: #FFFFFF !important;
+}
+
+/* Secondary buttons */
+.v-btn.secondary,
+.v-btn--outlined {
+    border-color: #888C89 !important;
+    color: #888C89 !important; /* secondary */
+}
+
+/* Hover states */
+.v-btn:hover {
+    filter: brightness(1.15);
+}
+
+/* ===========================
+   EMERGENCY STOP BUTTON
+   =========================== */
+
+.v-btn.emergency-stop,
+.v-btn.emergency-stop .v-btn__content {
+    background-color: #72242A !important; /* primary */
+    color: #FFFFFF !important;
+    border: 2px solid #5A1C21 !important; /* primary-dark */
+}
+
+.v-btn.emergency-stop:hover {
+    filter: brightness(1.15);
+}
+
+.v-btn.emergency-stop:active {
+    background-color: #5A1C21 !important; /* primary-dark */
+}
+
+/* ===========================
+   TOOLHEAD SECTION BUTTONS
+   =========================== */
+
+.toolhead-controls .v-btn,
+.toolhead-panel .v-btn {
+    background-color: #72242A !important; /* primary */
+    color: #FFFFFF !important;
+    border: 1px solid #5A1C21 !important; /* primary-dark */
+}
+
+.toolhead-controls .v-btn:hover,
+.toolhead-panel .v-btn:hover {
+    filter: brightness(1.15);
+}
+
+.toolhead-controls .v-btn:active,
+.toolhead-panel .v-btn:active {
+    background-color: #5A1C21 !important; /* primary-dark */
+}
+
+.toolhead-controls .v-btn--active,
+.toolhead-panel .v-btn--active {
+    box-shadow: 0 0 8px rgba(114, 36, 42, 0.6) !important;
+}
+
+/* ===========================
+   STATUS CHIPS / BADGES
+   =========================== */
+
+.v-chip {
+    background-color: #1A1A1A !important;
+    color: #888C89 !important; /* secondary */
+    border: 1px solid #888C89 !important; /* secondary */
+}
+
+.v-chip.status-idle {
+    background-color: rgba(114, 36, 42, 0.8) !important; /* primary */
+    color: #FFFFFF !important;
+}
+
+.v-chip.status-printing {
+    background-color: #4CAF50 !important;
+    color: #FFFFFF !important;
+}
+
+.v-chip.status-error {
+    background-color: #FF3B3B !important;
+    color: #FFFFFF !important;
+}
+
+/* ===========================
+   TEMPERATURE GRAPHS
+   =========================== */
+
+.temperature-graph,
+.chart-container {
+    background-color: #1A1A1A !important;
+    border: 1px solid #888C89 !important; /* secondary */
+}
+
+.chartjs-render-monitor {
+    color: #888C89 !important; /* secondary */
+}
+
+/* ===========================
+   CONSOLE
+   =========================== */
+
+.console {
+    background-color: #000000 !important;
+    border: 1px solid #888C89 !important; /* secondary */
+}
+
+.console input {
+    background-color: #1A1A1A !important;
+    border: 1px solid #888C89 !important; /* secondary */
+    color: #E6E6E6 !important;
+}
+
+/* ===========================
+   JOBS / FILES LIST
+   =========================== */
+
+.v-data-table-header th {
+    background-color: #1A1A1A !important;
+    color: #888C89 !important; /* secondary */
+    border-bottom: 1px solid #888C89 !important; /* secondary */
+}
+
+.v-data-table tbody tr:hover {
+    background-color: rgba(136, 140, 137, 0.15) !important; /* secondary */
+}
+
+/* ===========================
+   CONTROLS PANEL
+   =========================== */
+
+.controls-panel .v-card {
+    border: 1px solid #888C89 !important; /* secondary */
+}
+
+.controls-panel .v-btn {
+    background-color: #2A2A2A !important;
+    color: #888C89 !important; /* secondary */
+    border: 1px solid #888C89 !important; /* secondary */
+}
+
+.controls-panel .v-btn--active {
+    background-color: #72242A !important; /* primary */
+    color: #FFFFFF !important;
+}
+
+/* ===========================
+   DIALOGS / MODALS
+   =========================== */
+
+.v-dialog .v-card {
+    background-color: #1A1A1A !important;
+    border: 1px solid #888C89 !important; /* secondary */
+    color: #E6E6E6 !important;
+}
+
+.v-dialog .v-card__title {
+    border-bottom: 1px solid #888C89 !important; /* secondary */
+}
+
+/* ===========================
+   MISC
+   =========================== */
+
+a {
+    color: #888C89 !important; /* secondary */
+}
+a:hover {
+    color: #FFFFFF !important;
+}
+
+.v-tooltip__content {
+    background-color: #1A1A1A !important;
+    color: #888C89 !important; /* secondary */
+}
